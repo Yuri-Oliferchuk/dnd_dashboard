@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { CardFirst } from './Widgets/CardFirst';
+import { CardFirst } from './Widgets/CardFirst/CardFirst';
 import style from './WidgetsContainer.module.css';
 
 export const WidgetsContainer:FC = () => {
