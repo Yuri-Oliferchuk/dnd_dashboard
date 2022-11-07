@@ -13,3 +13,20 @@
   cursor: pointer;
 }
 
+.selectForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selectForm div, .selectForm button {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 !important;
+}
+.selectForm div {
+  flex-direction: column;
+  gap: 10px;
+}
